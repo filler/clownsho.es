@@ -8,6 +8,8 @@
   "mmm" ##mmmm "mm"#  "mm"#  "mmm#"
 ```
 
+![](https://media.giphy.com/media/3oEduVuU8vm1L3vw3K/giphy.gif)
+
 ### wat even is?
 
 Basically its an homage to everyones favorite Austin devop, The Ceez.
