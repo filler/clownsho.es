@@ -1,0 +1,15 @@
+language: bash
+
+script:
+  - /bin/true
+
+deploy:
+  provider: s3
+  access_key_id: AKIAJ6OL4NLLDRMAIXHQ
+  secret_access_key:
+    secure: iH2GhrVFMSRJIdAem+sMtXqi5xYsIKeZOhMacbNmpMn3CN7eYE6hPNd4qFlhcpfXW3C8m6SqbA15UgRK0j/Bak8t1mEVnMnn1ViLS6I9vgQNdyGk5o+cTSKvUcAhEn0fiwQTPHNCKxiVpH6Inm+Ml5glDgfmy7ljf5z2ax3dVnj1WgTICH/mpeb0JSoqyk9vdcfLxqEAFxrHaukt2ogMrk9J1J06buespwBFMag7s0IUDaMUHTAYaWsCq3xuyStGdPiSrzR8Xup27do/lRrJko92ktwKIbfdZ98Xi/q3nttviq8t20CgFnse0ao3gEwjf94cpBTGLl/qpp4letZ001mcDjzw4AT4ERqwhqUU+ASZ28lYDlO12NV4Mjfl0zAdoam4GEKYpOMpMMkQHdXzBs6aJXvqBO7fEdVN8XV1+JuGZSL2qU8a2Y/2RlllWRYV9Cqq5Ru4DyCGPRH5RZ8n28RoVc0Lo6vUpN6FVt2BND3n16UZtZ2yMbK9GXBpmutrubtZ598WebrmVDSKFN8nHpcX3a1TcrOcut9R8GcxoKmFuslaBv7auVRDhG28n1pQnpJ+y/60def7OiKqXre3cEOtPiRuyRsKkrH48ziSHfDMeMgGKYN62dSx7mjqd8l9wb1+ws6gRuiGEVLg0zIFZodA8XwYMz0/uRRYnZyaXVI=
+  bucket: clownsho.es
+  skip_cleanup: true
+  acl: public_read
+  on:
+    repo: filler/clownsho.es
