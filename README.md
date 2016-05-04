@@ -1,4 +1,4 @@
-# clownsho.es
+# clownsho.es ![https://travis-ci.org/filler/clownsho.es](https://api.travis-ci.org/filler/clownsho.es.svg?branch=master)
 
 ```
    mmm  mmmmmm                mmmm
